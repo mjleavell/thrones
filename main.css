@@ -1,3 +1,14 @@
 body {
     background-color: silver;
 }
+
+#characters {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.character-card {
+    text-align: center;
+    border: 1px solid white;
+}
