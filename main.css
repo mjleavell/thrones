@@ -8,6 +8,19 @@ body {
     justify-content: center;
 }
 
+#details {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#details img {
+    height: 400px;
+    width: 380px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
 .character-card {
     text-align: center;
 }
