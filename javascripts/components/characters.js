@@ -1,3 +1,5 @@
+import {printToDom} from '../helpers/util.js';
+
 const characters = [
     {
         name: 'Daenerys Targaryen',
@@ -21,4 +23,17 @@ const characters = [
     }
 ]
 
-console.log(characters);
+const charactersBuilder = () => {
+    let newString = "";
+    characters.forEach((character) => {
+        newString += `<div class="card character-card m-3" style="width: 18rem;">`
+        newString +=    `<img class="card-img-top" src="${character.imageUrl}" style="height: 450px;" alt="Card image cap">`
+        newString +=    `<div class="card-body">`
+        newString +=        `<h5 class="card-title">${character.name}</h5>`
+        newString +=    `</div>`
+        newString += `</div>`;
+    })
+     printToDom(newString, 'characters');
+}
+
+export {charactersBuilder}
