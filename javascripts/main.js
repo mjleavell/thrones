@@ -1,7 +1,8 @@
-import {charactersBuilder} from './components/characters.js';
+import {charactersBuilder, characterClick} from './components/characters.js';
 
 const initializeApp = () => {
     charactersBuilder();
+    characterClick();
 }
 
 initializeApp();

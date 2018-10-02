@@ -10,5 +10,12 @@ body {
 
 .character-card {
     text-align: center;
-    border: 1px solid white;
+}
+
+.card-img-top {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    object-position: 0 0;
+    margin: 0 auto;
 }
