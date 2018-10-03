@@ -1,7 +1,11 @@
 import {printToDom} from '../helpers/util.js';
 import {detailsBuilder} from './detail.js';
 
-const characters = []
+let characters = [];
+
+const setCharacters = (newArray) => {
+    characters = newArray;
+}
 
 const charactersBuilder = () => {
     let newString = "";
@@ -33,4 +37,4 @@ const createEvents = () => {
     }
 }
 
-export {charactersBuilder}
+export {charactersBuilder, setCharacters}
