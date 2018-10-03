@@ -2,6 +2,10 @@ body {
     background-color: silver;
 }
 
+h1 {
+    text-align: center;
+}
+
 #characters {
     display: flex;
     flex-flow: row wrap;
@@ -9,7 +13,6 @@ body {
 }
 
 #details {
-    text-align: center;
     border: 2px solid black;
     padding: 20px;
 }
