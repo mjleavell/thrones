@@ -1,0 +1,64 @@
+{
+    "characters": [
+        {
+            "id": "character1",
+            "name": "Daenerys Targaryen",
+            "house": "Targaryen",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/5f/Daenerys_Dragonpit.jpg/revision/latest?cb=20171015095128"
+        },
+        {
+            "id": "character2",
+            "name": "Jon Snow",
+            "house": "Stark",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/a/a5/Profile-JonSnow-707.png/revision/latest?cb=20170828030553"
+        },
+        {
+            "id": "character3",
+            "name": "Cersei Lannister",
+            "house": "Lannister",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/c/c3/Profile-CerseiLannister.png/revision/latest/scale-to-width-down/323?cb=20170828071355"
+        },
+        {
+            "id": "character4",
+            "name": "Tyrion Lannister",
+            "house": "Lannister",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/58/Tyrion_main_s7_e6.jpg/revision/latest?cb=20170818050344"
+        },
+        {
+            "id": "character5",
+            "name": "Arya Stark",
+            "house": "Stark",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/54/Arya_the_dragon_and_the_wolf_s7.jpg/revision/latest/scale-to-width-down/319?cb=20170828062911"
+        },
+        {
+            "id": "character6",
+            "name": "Sansa Stark",
+            "house": "Stark",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/7/7e/Sansastark706.jpg/revision/latest/scale-to-width-down/316?cb=20170828072803"
+        },
+        {
+            "id": "character7",
+            "name": "Eddard Stark",
+            "house": "Stark",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/3/37/Eddard_Stark_infobox_new.jpg/revision/latest/scale-to-width-down/323?cb=20160730050722"
+        },
+        {
+            "id": "character8",
+            "name": "Joffrey Baratheon",
+            "house": "Baratheon",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/2/25/Joffrey_Season_4_Episode_2_TLATR.jpg/revision/latest?cb=20171105180252"
+        },
+        {
+            "id": "character9",
+            "name": "Ramsay Bolton",
+            "house": "Bolton",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/d/d2/Ramsay_S06E09_RESZIED_FOR_INFOBOX.jpg/revision/latest/scale-to-width-down/350?cb=20160622071734"
+        },
+        {
+            "id": "character10",
+            "name": "Theon Greyjoy",
+            "house": "Greyjoy",
+            "imageUrl": "https://vignette.wikia.nocookie.net/gameofthrones/images/5/5f/TheonGreyjoy7x7.jpg/revision/latest/scale-to-width-down/333?cb=20170823221606"
+        }
+    ]
+}
