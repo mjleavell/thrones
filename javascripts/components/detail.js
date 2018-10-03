@@ -1,9 +1,12 @@
 import { printToDom } from "../helpers/util.js";
-import {charactersBuilder} from "./characters.js";
+import {charactersBuilder, getCharacterz} from "./characters.js";
 
 const closeButtonEvent = () => {
     const closeButton = document.getElementById('close');
-    closeButton.addEventListener('click', charactersBuilder);
+    closeButton.addEventListener('click', () => {
+        // getCharacterz returns an array. therefore, when charactersBuilder is called, the array is passed
+        charactersBuilder(getCharacterz());
+    });
 }
 
 // have to pass something in function because we are passing currentCharacter on character.js

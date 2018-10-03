@@ -1,4 +1,4 @@
-import {setCharacters, charactersBuilder} from '../components/characters.js';
+import {setCharacters, charactersBuilder, getCharacterz} from '../components/characters.js';
 
 function executeThisCodeAfterFileLoaded () {
     // this = the request that called the function (this is the request itself)
@@ -8,7 +8,7 @@ function executeThisCodeAfterFileLoaded () {
     // opposite of parse is stringify
     const data = JSON.parse(this.responseText);
     setCharacters(data.characters);
-    charactersBuilder();
+    charactersBuilder(getCharacterz());
     // console.log('request', data.characters);
 }
 
