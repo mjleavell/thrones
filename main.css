@@ -1,9 +1,10 @@
 body {
     background-color: silver;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+#close {
+    margin: 5px 0px 15px 5px;
 }
 
 #characters {
@@ -14,7 +15,7 @@ h1 {
 
 #details {
     border: 2px solid black;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 #details img {
@@ -24,10 +25,10 @@ h1 {
     object-position: 0 0;
 }
 
-.btn {
+/* .btn {
     margin-left: 20px;
     margin-bottom: 5px;
-}
+} */
 
 .character-card {
     text-align: center;
