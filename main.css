@@ -1,6 +1,8 @@
 body {
-    background-color: silver;
+    background-color: lightskyblue;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 #close {
@@ -42,6 +44,7 @@ body {
     margin: 0 auto;
 }
 
-.house-btn {
-    
+#Stark, #All {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
